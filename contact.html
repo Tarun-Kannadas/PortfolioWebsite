@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About – Tarun Kannadas</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <section class="form-container">
+    <h1 style="text-align:center; margin-top:40px;">Contact Me</h1>
+    <p style="text-align:center;">Fill out the form below to send me a message.</p>
+  
+    <form id="contactForm" class="contact-form" onsubmit="validationCheck(event)" action="" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone">
+  
+      <label for="place">Place</label>
+      <input type="text" id="place" name="place">
+  
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+  
+      <button id="submitbtn" type="submit">Send Message</button>
+      <button id="clearbtn" type="submit">Clear Message</button>
+    </form>
+  </section>  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-title">© 2025 Tarun Kannadas | Designed & Developed by Me</p>
+      <div class="footer-links">
+        <div class="quick-links">
+          <h4>Quick Links</h4>
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="social-links">
+          <h4>Connect</h4>
+          <a href="https://github.com/tarun-kannadas" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/tarun-kannadas-69ba93240/" target="_blank">LinkedIn</a>
+          <a href="https://instagram.com/chikashidoto_2002" target="_blank">Instagram</a>
+        </div>
+        <div class="contact-details">
+          <h4>Contact</h4>
+          <p>Email: <a href="mailto:tarunkannadas@gmail.com">tarunkannadas@gmail.com</a></p>
+          <p>Phone: +91-9072160041</p>
+          <p>Kochi, India</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/scripts.js"></script>
+
+</body>
+</html>
