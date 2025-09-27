@@ -12,8 +12,3 @@ Welcome to **The Portfolio Website**, my personal portfolio website built using 
 - **HTML** – Structure of the website
 - **CSS** – Styling and responsive design
 - **JavaScript** – Interactive elements and form validation
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Tarun-Kannadas/T-folio.git
