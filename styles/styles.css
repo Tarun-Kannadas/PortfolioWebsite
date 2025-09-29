@@ -316,6 +316,7 @@ form.contact-form button:hover {
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-style: italic;
 }
   
 
@@ -338,5 +339,12 @@ form.contact-form button:hover {
 
 #clearbtn
 {
+    color: red;
+}
+
+#warning
+{
+    text-align: center;
+    font-size: 20px;
     color: red;
 }

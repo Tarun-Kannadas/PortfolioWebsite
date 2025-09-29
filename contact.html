@@ -11,7 +11,7 @@
   <!-- Navbar -->
   <div class="navbar">
     <ul>
-      <li><a href="home.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -38,8 +38,9 @@
       <textarea id="message" name="message" rows="5" required></textarea>
   
       <button id="submitbtn" type="submit">Send Message</button>
-      <button id="clearbtn" type="submit">Clear Message</button>
+      <button id="clearbtn" onclick="clearMsg()" type="submit">Clear Message</button>
     </form>
+    <p id="warning"><br></p>
   </section>  
 
   <!-- Footer -->
